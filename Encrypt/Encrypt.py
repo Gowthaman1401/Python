@@ -2,7 +2,7 @@
 
 import os, optparse, base64, subprocess
 
-# provide colors to code/output which helps to identify output easily
+# provide colors to output which helps to identify output easily
 
 os.system('')
 
