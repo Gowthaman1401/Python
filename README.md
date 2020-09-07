@@ -1,6 +1,6 @@
-# Python
-Try to automating stuffs
+# Python : 
+   Try to automating stuffs.
 <hr width = "100%" >
 
 <ul><li>
-  <h3>  Encrypt </h3>Encrypt text into base64/morse code or base64/morse code into text</li></ul>
+  <h3>  Encrypt </h3>Encrypt text into base64/morse code or base64/morse code into text.</li></ul>
