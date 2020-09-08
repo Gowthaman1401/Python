@@ -63,10 +63,10 @@ def save_text(filename, txt):
     with open(str(path) + str(filename), "a+") as text:
         text.seek(0)
         # check whether .txt file is either empty or not
-    if len(text.read()) > 0:
+        if len(text.read()) > 0:
         # if file is not empty, write the output in next line
-        text.write("\n")
-    text.write(txt)
+            text.write("\n")
+        text.write(txt)
     print(style.YELLOW + "[+] Encoded/Decoded message saved in", str(path) + str(filename), style.RESET)
 
 
