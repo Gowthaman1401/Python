@@ -1,4 +1,5 @@
-# Encrypt Text to Base64
+# Encrypt Text to Base64:
+<hr = "75%" >
 <ul>
 <li>
 <pre><code>python Encrypt.py --help
