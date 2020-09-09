@@ -20,22 +20,22 @@ Options:
 <li>To encode text <code>"Hello World"</code> to the base64:
 <pre><code>python Base64.py -t "Hello World" -c e -p ...path...
 </code></pre>
-This will encode the text into base64 and save it as <code>Base64en.txt</code><br>
+This will encode the text into base64 and save it as <code>Base64_encoded.txt</code><br>
 <strong>Output:</strong>
 <pre><code>
 [+] Message encoded
-[+] Encoded/Decoded message saved in ...path.../Base64en.txt
+[+] Encoded/Decoded message saved in ...path.../Base64_encoded.txt
 </code></pre>
 
 </li>
 <li>To decode text <code>"Hello World"</code> from the base64:
 <pre><code>python Base64.py -t "SGVsbG8gV29ybGQ=" -c d -p ...path...
 </code></pre>
-This will decode the base64 into text and save it as <code>Base64de.txt</code><br>
+This will decode the base64 into text and save it as <code>Base64_decoded.txt</code><br>
 <strong>Output:</strong>
 <pre><code>
 [+] Message decoded
-[+] Encoded/Decoded message saved in ...path.../Base64de.txt
+[+] Encoded/Decoded message saved in ...path.../Base64_decoded.txt
 </code></pre>
 </ul>
 
@@ -58,22 +58,22 @@ Options:
 <li>To encode text <code>"HELLO WORLD"</code> to the morse code:
 <pre><code>python Morse.py -m "HELLO WORLD" -c e -p ...path...
 </code></pre>
-This will encode the text into morse and save it as <code>Morse_encode.txt</code><br>
+This will encode the text into morse and save it as <code>Morse_encoded.txt</code><br>
 <strong>Output:</strong>
 <pre><code>
 [+] Message encoded
-[+] Encoded/Decoded message saved in ...path.../Morse_encode.txt
+[+] Encoded/Decoded message saved in ...path.../Morse_encoded.txt
 </code></pre>
 
 </li>
 <li>To decode text <code>"HELLO WORLD"</code> from the morse code:
 <pre><code>python Morse.py -m ".... . .-.. .-.. ---  .-- --- .-. .-.. -.." -c d -p ...path...
 </code></pre>
-This will decode the base64 into text and save it as <code>Morse_decode.txt</code><br>
+This will decode the base64 into text and save it as <code>Morse_decoded.txt</code><br>
 <strong>Output:</strong>
 <pre><code>
 [+] Message decoded
-[+] Encoded/Decoded message saved in ...path.../Morse_decode.txt
+[+] Encoded/Decoded message saved in ...path.../Morse_decoded.txt
 </code></pre>
 </ul>
 
