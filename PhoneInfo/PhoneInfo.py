@@ -1,9 +1,10 @@
 #!usr/bin/env python
 
 import optparse, os, subprocess
-import phonenumbers                    # pip/pip3 install phonenumbers
+import phonenumbers                    # pip3 install phonenumbers
 from phonenumbers import carrier
 from phonenumbers import geocoder
+from phonenumbers import timezone
 
 
 # provide colors to output which helps to identify output easily
@@ -27,6 +28,7 @@ class style():
 def get_argument():
     print(style.RED)
     parser = optparse.OptionParser(' [-p phonenumber]\n\t[-h help]')
+    parser.add_option("-m", "--menu", dest="menu",help="Do you want to return to the Mainmenu(Y/N)?")
     parser.add_option("-p", "--phn", dest="phonenumber", help="Enter phonenumber with county code")
     (options, argument) = parser.parse_args()
     if not options.phonenumber:
@@ -40,10 +42,12 @@ def num_check(phonenumber):
     try:
         info = []
         number = phonenumbers.parse(phonenumber)
-        # to get region
-        info.append(geocoder.description_for_number(number, "en"))
         # to get the carrier service
         info.append(carrier.name_for_number(number, "en"))
+        #cto get timezone
+        info.append(timezone.time_zones_for_number(number))
+        # to get region
+        info.append(geocoder.description_for_number(number, "en"))
         return print(style.YELLOW , info , style.RESET)
     except:
         print(style.RED + "[-] Incorrect phonenumber" + style.RESET)
