@@ -3,7 +3,7 @@
 <ul>
   <h2><a href = "https://github.com/Gowthaman1401/Python/blob/master/Encrypt/Encrypt.py">To Base64 :</a></h2>
 <ul>
-<li>
+<li>To get help : <br>
 <pre><code>python Encrypt.py --help
 </code></pre>
 <strong>Output</strong>:
