@@ -1,10 +1,10 @@
 # Encrypt Text :
 <hr = "75%" >
 <ul>
-  <h2><a href = "https://github.com/Gowthaman1401/Python/blob/master/Encrypt/Encrypt.py">To Base64 :</a></h2>
+  <h2><a href = "https://github.com/Gowthaman1401/Python/blob/master/Encrypt/Base64.py">To Base64 :</a></h2>
 <ul>
 <li>To get help : <br>
-<pre><code>python Encrypt.py --help
+<pre><code>python Base64.py --help
 </code></pre>
 <strong>Output</strong>:
 <pre><code>
@@ -18,7 +18,7 @@ Options:
 </code></pre>
 </li>
 <li>To encode text <code>"Hello World"</code> to the base64:
-<pre><code>python Encrypt.py -t "Hello World" -c e -p ...path...
+<pre><code>python Base64.py -t "Hello World" -c e -p ...path...
 </code></pre>
 This will encode the text into base64 and save it as <code>Base64en.txt</code><br>
 <strong>Output:</strong>
@@ -29,7 +29,7 @@ This will encode the text into base64 and save it as <code>Base64en.txt</code><b
 
 </li>
 <li>To decode text <code>"Hello World"</code> from the base64:
-<pre><code>python Encrypt.py -t "SGVsbG8gV29ybGQ=" -c d -p ...path...
+<pre><code>python Base64.py -t "SGVsbG8gV29ybGQ=" -c d -p ...path...
 </code></pre>
 This will decode the base64 into text and save it as <code>Base64de.txt</code><br>
 <strong>Output:</strong>
