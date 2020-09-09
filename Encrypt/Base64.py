@@ -58,7 +58,7 @@ def base64_encode(message, path):
     txt = (base64.b64encode(message.encode("ascii"))).decode("ascii")
     print(style.YELLOW + "[+] Message encoded" + style.RESET)
     # call save_text() to save the encoded message as .txt file
-    save_text("Base64en.txt", txt, path)
+    save_text("Base64_encoded.txt", txt, path)
 
 
 # function to convert base64 into String format
@@ -68,10 +68,12 @@ def base64_decode(message, path):
     txt = (base64.b64decode(message.encode("ascii"))).decode("ascii")
     print(style.YELLOW + "[+] Message decoded" + style.RESET)
     # call save_text() to save the decoded message as .txt file
-    save_text("Base64de.txt", txt, path)
+    save_text("Base64_decoded.txt", txt, path)
 
 
 def choice(message, choice, path):
+    if not path:
+        path = os.getcwd()
     # If your choose to encode then following block
     if choice == 'Encode' or choice == 'encode' or choice == 'e' or choice == '1':
         base64_encode(message, path)
