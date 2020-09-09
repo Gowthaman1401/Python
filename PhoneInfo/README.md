@@ -2,8 +2,7 @@
 <hr = "75%" >
 <ul>
 <li>To run this :<br><code>pip3 install -r requirements.txt</code></li>
-<li>
-<pre><code>python PhoneInfo.py --help
+<li>To get help :<br><pre><code>python PhoneInfo.py --help
 </code></pre>
 <strong>Output</strong>:
 <pre><code>
