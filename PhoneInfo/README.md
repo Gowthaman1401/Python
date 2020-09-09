@@ -19,6 +19,6 @@ Options:
 </code></pre>
 <strong>Output:</strong>
 <pre><code>
-['Romania', 'Vodafone']
+['Vodafone', ('Europe/Bucharest',), 'Romania']
 </code></pre>
 </ul>
