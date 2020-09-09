@@ -15,7 +15,6 @@ Options:
   -h,          --help              show this help message and exit
   -t MESSAGE,  --message=MESSAGE   Enter the message
   -c CHOICE,   --choice=CHOICE     Enter the choice(Encode/Decode)
-                        
 </code></pre>
 </li>
 <li>To encode text <code>"Hello World"</code> to the base64:
