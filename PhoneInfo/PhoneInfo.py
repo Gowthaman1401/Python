@@ -27,7 +27,6 @@ class style():
 def get_argument():
     print(style.RED)
     parser = optparse.OptionParser(' [-p phonenumber]\n\t[-h help]')
-    parser.add_option("-m", "--menu", dest="menu",help="Do you want to return to the Mainmenu(Y/N)?")
     parser.add_option("-p", "--phn", dest="phonenumber", help="Enter phonenumber with county code")
     (options, argument) = parser.parse_args()
     if not options.phonenumber:
