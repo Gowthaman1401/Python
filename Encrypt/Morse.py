@@ -114,6 +114,8 @@ def morse_decode(message, path):
 
 
 def choice(message, choice, path):
+    if not path:
+        path = os.getcwd()
     # If your choose to encode then following block
     if choice == 'Encode' or choice == 'encode' or choice == 'e' or choice == '1':
         morse_encode(message.upper(), path)
