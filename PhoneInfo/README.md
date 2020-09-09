@@ -16,7 +16,7 @@ Options:
 </li>
 <li>To get info about phonenumber <code>"+40721234567"</code>:
 <pre><code>python PhoneInfo.py -p "+40721234567"
-</code></pre><br>
+</code></pre>
 <strong>Output:</strong>
 <pre><code>
 ['Romania', 'Vodafone']
