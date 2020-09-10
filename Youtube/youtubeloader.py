@@ -56,6 +56,7 @@ def utube(url, choice):
         print(style.YELLOW + "[-] You have to do it manually!\n[+] Redirecting to default browser..." + style.RESET)
     except:
         print(style.RED+ "[-] Invalid url" + style.RESET)
+        quit()
 
 
 options = get_argument()
