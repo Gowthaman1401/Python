@@ -24,9 +24,9 @@ class style():
 
 def get_argument():
     print(style.RED)
-    parser = optparse.OptionParser(' [-u url] [-c choice]\n\t[-h help]')
-    parser.add_option("-u", "--url", dest="url",help="Url to youtube video (url should be in https://www.youtube.com/..... format)")
-    parser.add_option("-c", "--choice", dest="choice",help="Enter your choice (1.DownloadVideo / 2.DownloadSubtitle(if available) / 3.WatchWithoutAds / 4.WatchAgeRestricted")
+    parser = optparse.OptionParser(' [-u url] [-c choice] [-h help]')
+    parser.add_option("-u", "--url", dest="url",help="Url to youtube video (url should be in 'https://www.youtube.com/...' format)")
+    parser.add_option("-c", "--choice", dest="choice",help="Enter your choice (1.DownloadVideo / 2.DownloadSubtitle(if available) / 3.WatchWithoutAds / 4.WatchAgeRestricted)" + style.RESET)
     (options, argument) = parser.parse_args()
     if not options.url and not options.choice:
         parser.error(style.RED+ "Please specify the Url to youtube video and your choice, Use --help for more info" + style.RESET)
@@ -53,7 +53,7 @@ def utube(url, choice):
             webbrowser.open(ads)
         elif choice == '4' or choice == 'WatchAgeRestricted':
             webbrowser.open(age)
-        print(style.YELLOW + "[-] You have to do it manually!" + style.RESET)
+        print(style.YELLOW + "[-] You have to do it manually!\n[+] Redirecting to default browser..." + style.RESET)
     except:
         print(style.RED+ "[-] Invalid url" + style.RESET)
 
