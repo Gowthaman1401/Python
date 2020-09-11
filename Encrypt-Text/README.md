@@ -1,7 +1,7 @@
 # Encrypt Text :
 <hr = "75%" >
 <ul>
-  <h2><a href = "https://github.com/Gowthaman1401/Python/blob/master/Encrypt/Base64.py">To Base64 :</a></h2>
+  <h2><a href = "https://github.com/Gowthaman1401/Python/blob/master/Encrypt-Text/Base64.py">To Base64 :</a></h2>
 <ul>
 <li>To get help : <br>
 <pre><code>python Base64.py --help
@@ -39,7 +39,7 @@ This will decode the base64 into text and save it as <code>Base64_decoded.txt</c
 </code></pre>
 </ul>
 
-  <h2><a href = "https://github.com/Gowthaman1401/Python/blob/master/Encrypt/Morse.py">To Morsecode :</a></h2>
+  <h2><a href = "https://github.com/Gowthaman1401/Python/blob/master/Encrypt-Text/Morse.py">To Morsecode :</a></h2>
 <ul>
 <li>To get help : <br>
 <pre><code>python Morse.py --help
