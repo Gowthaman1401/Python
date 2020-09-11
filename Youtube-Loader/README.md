@@ -1,7 +1,7 @@
-# <a href = "https://github.com/Gowthaman1401/Python/blob/master/Youtube/youtubeloader.py">YoutubeLoader :</a>
+# <a href = "https://github.com/Gowthaman1401/Python/blob/master/Youtube-Loader/YoutubeLoader.py">YoutubeLoader :</a>
 <hr = "75%" >
 <ul>
-<li>To get help :<br><pre><code>python youtubeloader.py --help
+<li>To get help :<br><pre><code>python YoutubeLoader.py --help
 </code></pre>
 <strong>Output</strong>:
 <pre><code>
@@ -15,7 +15,7 @@ Options:
 </code></pre>
 </li>
 <li>To get/watch Youtube video <code>"https://www.youtube.com/..."</code>:
-<pre><code>python youtubeloader.py -u "https://www.youtube.com/..." -c 1
+<pre><code>python YoutubeLoader.py -u "https://www.youtube.com/..." -c 1
 </code></pre>
 <strong>Output:</strong>
 <pre><code>
