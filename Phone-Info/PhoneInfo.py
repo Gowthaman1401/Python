@@ -1,7 +1,7 @@
 #!usr/bin/env python
 
 import optparse, os, subprocess
-import phonenumbers                    # pip3 install phonenumbers
+import phonenumbers                   
 from phonenumbers import carrier
 from phonenumbers import geocoder
 from phonenumbers import timezone
