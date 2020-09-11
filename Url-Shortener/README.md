@@ -1,7 +1,8 @@
 # <a href = "https://github.com/Gowthaman1401/Python/blob/master/Url-Shortener/TinyUrl.py">UrlShortener :</a>
 <hr = "75%" >
 <ul>
-<li>To get help :<br><pre><code>python tinyurl.py --help
+  <li>To run this :<br><pre><code>pip3 install -r requirements.txt</code></pre></li>
+<li>To get help :<br><pre><code>python TinyUrl.py --help
 </code></pre>
 <strong>Output</strong>:
 <pre><code>
@@ -13,7 +14,7 @@ Options:
 </code></pre>
 </li>
 <li>To shorten the URL <code>"https://github.com/Gowthaman1401/Python/tree/master/Url-Shortener"</code>:
-<pre><code>python tinyurl.py -u "https://github.com/Gowthaman1401/Python/tree/master/Url-Shortener"
+<pre><code>python TinyUrl.py -u "https://github.com/Gowthaman1401/Python/tree/master/Url-Shortener"
 </code></pre>
 <strong>Output:</strong>
 <pre><code>
