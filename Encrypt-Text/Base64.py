@@ -77,7 +77,6 @@ def choice(message, choice, path):
     # If your choose to encode then following block
     if choice == 'Encode' or choice == 'encode' or choice == 'e' or choice == '1':
         base64_encode(message, path)
-
     # If your choose to decode then following block
     elif choice == 'Decode' or choice == 'decode' or choice == 'd' or choice == '2':
         base64_decode(message, path)
