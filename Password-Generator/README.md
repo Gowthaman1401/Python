@@ -1,4 +1,4 @@
-# <a href = "https://github.com/Gowthaman1401/Python/blob/master/PassGen/PassGen.py"> Password Generator :</a>
+# <a href = "https://github.com/Gowthaman1401/Python/blob/master/Password-Generator/PassGen.py"> Password Generator :</a>
 <hr = "75%" >
 <ul>
 <li>To get help :<br><pre><code>python PassGen.py --help
