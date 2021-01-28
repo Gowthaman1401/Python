@@ -6,7 +6,7 @@
 <strong>Output</strong>:
 <pre><code>
 
-Usage:  Usage:  [-l length] [-i include] [-o wanted_characters] [-n unwanted_characters] [-r repeat_characters(Y/N)] [-h help]
+Usage:  [-l length] [-i include] [-o wanted_characters] [-n unwanted_characters] [-r repeat_characters(Y/N)] [-h help]
 
 Options:
   -h,             --help               show this help message and exit
