@@ -1,6 +1,7 @@
 # <a href = "https://github.com/Gowthaman1401/Python/blob/master/Password-Generator/PassGen.py"> Password Generator :</a>
 <hr = "75%" >
 <ul>
+<li>To run this :<br><code>pip3 install -r requirements.txt</code></li>
 <li>To get help :<br><pre><code>python PassGen.py --help
 </code></pre>
 <strong>Output</strong>:
